@@ -1,55 +1,23 @@
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                            ║
-║   ███╗   ███╗ █████╗ ██╗  ██╗ █████╗ ██████╗ ██╗     █████╗ ██╗     ██╗  ██████╗  ║
-║   ████╗ ████║██╔══██╗██║  ██║██╔══██╗██╔══██╗██║    ██╔══██╗██║     ██║  ██╔═══╝  ║
-║   ██╔████╔██║███████║███████║███████║██║  ██║██║    ███████║██║     ██║  █████╗   ║
-║   ██║╚██╔╝██║██╔══██║██╔══██║██╔══██║██║  ██║██║    ██╔══██║██║     ██║  ██╔══╝   ║
-║   ██║ ╚═╝ ██║██║  ██║██║  ██║██║  ██║██████╔╝██║    ██║  ██║███████╗██║  ██║      ║
-║   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝      ║
-║                                                                            ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
-
-```c
-/**
- * @file    runtime.c
- * @brief   System initialization — Engineering Runtime v3.2
- * @author  Mahadi Alif
- * @target  bare-metal | RTOS | edge-compute
- */
-
-#include <firmware.h>
-#include <signal_processing.h>
-#include <robotics.h>
-#include <edge_ml.h>
-
-int main(void) {
-
-    system_init(POLITECNICO_DI_TORINO, ELECTRONICS_TELECOM_ENG);
-
-    while (1) {
-        acquire_signals(IMU | ENCODERS | ANALOG_FRONTEND);
-        process_dsp_pipeline(FIR | FFT | KALMAN);
-        fuse_sensors(CAN_BUS | ROS2_TOPICS);
-        deploy_inference(EDGE_ML | INT8_QUANTIZED);
-        push_telemetry(UART | SPI | I2C);
-
-        watchdog_feed();  // system alive — shipping production firmware
-    }
-}
-```
-
----
-
 <div align="center">
 
-### `> SYSTEM IDENTITY`
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=35&pause=1000&color=70A5FD&center=true&vCenter=true&random=false&width=600&height=70&lines=Mahadi+Alif" alt="Mahadi Alif" />
 
-**Electronics & Telecommunications Engineering** · Politecnico di Torino  
-Operating at the intersection of **bare-metal firmware**, **real-time robotics**, and **digital signal processing**.
+**Electronics & Telecommunications Engineering** · Politecnico di Torino
+
+`bare-metal firmware` · `real-time robotics` · `digital signal processing` · `edge ML`
 
 Building systems where clock cycles matter and latency budgets are measured in microseconds.
+
+<br>
+
+![C](https://img.shields.io/badge/C-0a0f1d?style=flat-square&logo=c&logoColor=70a5fd)
+![C++](https://img.shields.io/badge/C++-0a0f1d?style=flat-square&logo=cplusplus&logoColor=70a5fd)
+![Python](https://img.shields.io/badge/Python-0a0f1d?style=flat-square&logo=python&logoColor=38bdae)
+![MATLAB](https://img.shields.io/badge/MATLAB-0a0f1d?style=flat-square&logo=mathworks&logoColor=f7768e)
+![STM32](https://img.shields.io/badge/STM32-0a0f1d?style=flat-square&logo=stmicroelectronics&logoColor=70a5fd)
+![ESP32](https://img.shields.io/badge/ESP32--P4-0a0f1d?style=flat-square&logo=espressif&logoColor=38bdae)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-0a0f1d?style=flat-square&logo=freertos&logoColor=f7768e)
+![ROS 2](https://img.shields.io/badge/ROS_2-0a0f1d?style=flat-square&logo=ros&logoColor=70a5fd)
 
 </div>
 
@@ -59,11 +27,12 @@ Building systems where clock cycles matter and latency budgets are measured in m
 
 <div align="center">
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=MahadiAlif&show_icons=true&theme=tokyonight&bg_color=0a0f1d&hide_border=true&title_color=70a5fd&icon_color=38bdae&text_color=a9b1d6&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MahadiAlif&theme=tokyonight" alt="GitHub Stats" height="180"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=MahadiAlif&theme=tokyonight&background=0a0f1d&hide_border=true&ring=70a5fd&fire=f7768e&currStreakLabel=70a5fd&sideLabels=a9b1d6&dates=565f89" alt="GitHub Streak" height="180"/>
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=MahadiAlif&layout=compact&theme=tokyonight&bg_color=0a0f1d&hide_border=true&title_color=70a5fd&text_color=a9b1d6&langs_count=8" alt="Top Languages" height="180"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MahadiAlif&theme=tokyonight" alt="Top Languages" height="180"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MahadiAlif&theme=tokyonight" alt="Most Commit Language" height="180"/>
 
 </div>
 
