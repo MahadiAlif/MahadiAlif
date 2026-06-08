@@ -59,11 +59,11 @@ Building systems where clock cycles matter and latency budgets are measured in m
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=MahadiAlif&show_icons=true&theme=tokyonight&bg_color=0a0f1d&hide_border=true&title_color=70a5fd&icon_color=38bdae&text_color=a9b1d6&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=MahadiAlif&show_icons=true&theme=tokyonight&bg_color=0a0f1d&hide_border=true&title_color=70a5fd&icon_color=38bdae&text_color=a9b1d6&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=MahadiAlif&theme=tokyonight&background=0a0f1d&hide_border=true&ring=70a5fd&fire=f7768e&currStreakLabel=70a5fd&sideLabels=a9b1d6&dates=565f89" alt="GitHub Streak" height="180"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MahadiAlif&layout=compact&theme=tokyonight&bg_color=0a0f1d&hide_border=true&title_color=70a5fd&text_color=a9b1d6&langs_count=8" alt="Top Languages" height="180"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=MahadiAlif&layout=compact&theme=tokyonight&bg_color=0a0f1d&hide_border=true&title_color=70a5fd&text_color=a9b1d6&langs_count=8" alt="Top Languages" height="180"/>
 
 </div>
 
