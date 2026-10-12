@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=35&pause=1000&color=70A5FD&center=true&vCenter=true&random=false&width=700&height=70&lines=Mahadi+Hasan+Alif" alt="Mahadi Hasan Alif" />
 
-**Electronics & Telecommunications Engineering** · Politecnico di Torino
+**Computer Engineering - Embedded and Smart Systems design Track** · Politecnico di Torino
 
 `bare-metal firmware` · `real-time robotics` · `digital signal processing` · `edge ML`
 
